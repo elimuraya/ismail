@@ -1,0 +1,10 @@
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/repository/RoleRepository.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/models/User.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/config/SecurityConfiguration.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/services/UserService.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/services/MailClient.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/models/Role.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/services/MailContentBuilder.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/controllers/UserController.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/repository/UserRepository.java
+/home/eli/WorkSpot/Projects/P.Projects/Ismail_Insurance/ismail/src/main/java/com/ismail/IsmailInsuranceApplication.java

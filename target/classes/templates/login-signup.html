@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+       <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IsmailInsurance</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css1/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="asset/css/style.css">
+    
+
+
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Ismail Insurance</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">spare shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" th:href=@{/login}>LOGIN/REGISTER</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  
+      <link rel="stylesheet" href="asset/css/style.css">
+
+  
+</head>
+<br><br>
+<body>
+
+<div class="panel">
+  <ul class="panel__menu" id="menu">
+    <hr/>
+    <li id="signIn"> <a href="#">Login</a></li>
+    <li id="signUp"><a href="#">Sign up</a></li>
+  </ul>
+  <div class="panel__wrap">
+    <div class="panel__box active" id="signInBox">
+	    <form action="#" th:action="@{/login}" method="post">
+		      <label>Email
+		        <input type="email"/>
+		      </label>
+		      <label>Password
+		        <input type="password"/>
+		      </label>
+		      <input type="submit" value = "SUBMIT"/>
+	    </form>
+    </div>
+    <div class="panel__box" id="signUpBox">
+	     <form action="#" th:action="@{/register}" th:object="${user}" method="post">
+		           <label>First Name
+		       		 <input type="password"/>
+		     	   </label>
+		      	   <label>Last Name
+		        		<input type="password"/>
+			      </label>
+		
+		 		
+		 		
+		 		<label>Email
+		        <input type="email"/>
+		      </label>
+		      <label>Password
+		        <input type="password"/>
+		      </label>
+		      <label>Confirm password
+		        <input type="password"/>
+		      </label>
+		     
+		      <input type="submit" value = "REGISTER"/>
+	      </form>
+		 		
+		   
+		      
+    </div>
+  </div>
+</div>
+  
+  
+
+    <script  src="asset/js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+com/ismail/models/User.class
+com/ismail/services/UserService.class
+com/ismail/models/Role.class
+com/ismail/repository/UserRepository.class
+com/ismail/IsmailInsuranceApplication.class
+com/ismail/config/SecurityConfiguration.class
+com/ismail/repository/RoleRepository.class
+com/ismail/services/MailContentBuilder.class
+com/ismail/controllers/UserController.class
+com/ismail/services/MailClient.class
