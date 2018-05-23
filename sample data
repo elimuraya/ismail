@@ -1,0 +1,15 @@
+    {
+            "surName": "mbaru",
+            "firstName": "eli",
+            "lastName": "muraya",
+            "nationalId": 3241342,
+            "phoneNo": 707070707,
+            "address": "lanet nakuru",
+            "email": "elimuraaa95d@gmaidl.com",
+            "password": "pasword",
+            "active": false,
+            "roles": "CUSTOMER",
+            "emailConfirmation": "sbjkgbskdjvusbdvhbsdvwwwe34tert",
+            "createdAt": "2018-05-22T09:12:31.000+0000",
+            "updatedAt": "2018-05-22T09:12:31.000+0000"
+    } 
